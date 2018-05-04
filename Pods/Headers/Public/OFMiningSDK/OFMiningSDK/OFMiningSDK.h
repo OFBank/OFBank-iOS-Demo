@@ -1,0 +1,1 @@
+../../../../OFMiningSDK/OFMining/OFMiningSDK.framework/Headers/OFMiningSDK.h

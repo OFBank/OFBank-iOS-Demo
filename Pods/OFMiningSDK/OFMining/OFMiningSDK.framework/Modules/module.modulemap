@@ -1,0 +1,6 @@
+framework module OFMiningSDK {
+  umbrella header "OFMiningSDK.h"
+
+  export *
+  module * { export * }
+}
