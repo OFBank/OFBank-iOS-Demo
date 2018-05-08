@@ -2,7 +2,7 @@
 
 ### 1.创建应用
 
-到ofbank开放平台创建应用，应用创建完成后，进入应用模块进行设置，具体操作请参见[创建APP](www.ofbank.com)。
+到ofbank开放平台创建应用，应用创建完成后，进入应用模块进行设置，具体操作请参见[创建APP](test.openapi.lingzhuworld.cn)。
 
 ### 2.SDK下载和集成
 
@@ -10,8 +10,7 @@
 
 ###### 2.1.1控制台下载
 
-  - 在开放平台SDK下载页进行下载；
-  ![](http://file.lingzhuworld.cn:80/group1/M00/00/10/rBEW81riltGAQ5sUAAQbAy3Byfg948.jpg 'download')
+  - 在开放平台SDK下载页进行下载
 
 ###### 2.1.2公共依赖包
 
@@ -30,14 +29,14 @@
 
   - 指定Master仓库和ofbank仓库
 
-	```
+	```ruby
 	source 'https://github.com/CocoaPods/Specs.git'
 	source 'https://github.com/OFBank/ofbank-specs.git'
 	```
 	
   - 添加依赖：
    
-    ```
+    ```ruby
     pod 'OFMiningSDK'
     ```
 
@@ -45,11 +44,11 @@
 
  - 工程引入头文件
  
-   ```
+   ```objective-c
    #import <OFMiningSDK/OFMiningSDK.h>
    ```
    
- - 请参照以下代码完成SDK的初始化，appKey/appSecret 的获取参考[创建App](www.ofbank.com)
+ - 请参照以下代码完成SDK的初始化，appKey/appSecret 的获取参考[创建App](test.openapi.lingzhuworld.cn)
  
  ``` Objective-C
  // SDK初始化
